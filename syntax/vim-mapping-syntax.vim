@@ -2,6 +2,8 @@ if exists("b:current_syntax")
     finish
 endif
 
-echom "Our syntax highlighting code will go here."
+syntax keyword mappingKeyword codelist
+syntax keyword mappingKeyword with
+highlight link mappingKeyword Keyword
 
 let b:current_syntax = "vim-mapping-syntax"
