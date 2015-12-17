@@ -3,6 +3,7 @@ if exists("b:current_syntax")
 endif
 
 syntax keyword mappingKeyword codelist
+syntax keyword mappingKeyword root
 syntax keyword mappingKeyword parent
 syntax match mappingKeyword "\v\.\."
 syntax keyword mappingKeyword this
