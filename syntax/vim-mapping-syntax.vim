@@ -16,7 +16,7 @@ syntax match mappingDelimiter "\v\/"
 highlight link mappingDelimiter Delimiter
 
 syntax match mappingFunction "\v \S+ " contained
-syntax region mappingFunctionRegion start=/\v-\>/ end=/\v-\>/ contains=mappingFunction oneline
+syntax region mappingFunctionRegion start=/\v(-\>|-\>\>|\<-|\<\<-)/ end=/\v(-\>|-\>\>|\<-|\<\<-)/ contains=mappingFunction oneline
 highlight link mappingFunction Function
 
 let b:current_syntax = "vim-mapping-syntax"
