@@ -3,6 +3,7 @@ if exists("b:current_syntax")
 endif
 
 syntax keyword mappingKeyword codelist
+syntax keyword mappingKeyword this
 syntax keyword mappingKeyword with
 syntax keyword mappingKeyword is
 syntax keyword mappingKeyword contains
