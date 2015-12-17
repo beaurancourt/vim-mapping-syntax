@@ -20,8 +20,8 @@ syntax match mappingOperator "\v\$"
 syntax keyword mappingOperator &
 highlight link mappingOperator Operator
 
-syntax match mappingArrow "\v\<-\>"
 syntax match mappingArrow "\v(-\>|\<-)"
+syntax match mappingArrow "\v\<-\>"
 highlight link mappingArrow Operator
 
 syntax match mappingFunction "\v \S+ " contained
