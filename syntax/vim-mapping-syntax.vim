@@ -26,6 +26,6 @@ highlight link mappingArrow Operator
 syntax match mappingFunction "\v \S+ " contained
 syntax region mappingFunctionRegion start=/\v(-\>|-\>\>|\<-|\<\<-)/ end=/\v(-\>|-\>\>|\<-|\<\<-)/ contains=mappingFunction oneline
 highlight link mappingFunction Function
-highlight link mappingFunction Operator
+highlight link mappingFunctionRegion Operator
 
 let b:current_syntax = "vim-mapping-syntax"
