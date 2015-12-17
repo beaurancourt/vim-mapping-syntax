@@ -16,6 +16,9 @@ syntax match mappingDelimiter "\v\/"
 highlight link mappingDelimiter Delimiter
 
 syntax match mappingOperator "\v\+\+"
+syntax match mappingOperator "\v\$"
+syntax match mappingOperator "\v(-\>|-\>\>|\<-|\<\<-)"
+syntax keyword mappingOperator &
 highlight link mappingOperator Operator
 
 syntax match mappingFunction "\v \S+ " contained
