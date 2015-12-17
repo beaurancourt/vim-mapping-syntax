@@ -4,6 +4,9 @@ endif
 
 syntax keyword mappingKeyword codelist
 syntax keyword mappingKeyword with
+syntax keyword mappingKeyword is
+syntax keyword mappingKeyword contains
+syntax keyword mappingKeyword value
 highlight link mappingKeyword Keyword
 
 syntax match mappingComment "\v;.*$"
