@@ -15,7 +15,7 @@ highlight link mappingString String
 syntax match mappingDelimiter "\v\/"
 highlight link mappingDelimiter Delimiter
 
-syntax keyword mappingOperator ++
+syntax match mappingOperator "\v\+\+"
 highlight link mappingOperator Operator
 
 syntax match mappingFunction "\v \S+ " contained
