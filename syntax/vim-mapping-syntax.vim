@@ -12,4 +12,7 @@ highlight link mappingComment Comment
 syntax region mappingString start=/\v"/ skip=/\v\\./ end=/\v"/
 highlight link mappingString String
 
+syntax match mappingDelimiter "\v\/"
+highlight link mappingDelimiter Delimiter
+
 let b:current_syntax = "vim-mapping-syntax"
