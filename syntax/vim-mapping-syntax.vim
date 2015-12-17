@@ -15,4 +15,8 @@ highlight link mappingString String
 syntax match mappingDelimiter "\v\/"
 highlight link mappingDelimiter Delimiter
 
+syntax match mappingFunction "\v\S+" contained
+syntax region mappingFunctionRegion start=/\v-\>/ end=/\v-\>/ 
+highlight link mappingFunction Function
+
 let b:current_syntax = "vim-mapping-syntax"
